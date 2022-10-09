@@ -1,2 +1,7 @@
-module Api::V1::GreetingsHelper
+module Api
+  module V1
+    # comment
+    module GreetingsHelper
+    end
+  end
 end

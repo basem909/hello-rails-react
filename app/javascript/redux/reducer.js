@@ -1,11 +1,11 @@
-import showGreeting from "./action-types";
+import showGreeting from './action-types';
 
 const reducer = (state = [], action = {}) => {
-  switch (action.type){
+  switch (action.type) {
     case showGreeting:
-    return [...state,action.payload]
+      return [...state, action.payload];
     default:
-      return state
+      return state;
   }
 };
-export default reducer
+export default reducer;

@@ -1,2 +1,3 @@
+# comment
 module RootHelper
 end
